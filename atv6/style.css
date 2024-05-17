@@ -1,0 +1,79 @@
+.bio, .imagem_perfil  {
+    border: 3px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #00000052;
+    margin-top: 20px;    
+}
+
+h1 {
+    text-align: center;
+    color: #00eb5a;
+    text-decoration: solid;
+    font-size: 20px;
+
+}
+.dev  {
+    text-align: center;
+    color: #00eb5a;
+    text-decoration: solid;
+    font-size: 12px;
+
+}
+.bio  {
+    min-width: 20rem;
+    background-color: #000000;
+    display: block;
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-align: center;
+    margin-inline: auto;
+    
+}
+body  {
+    background-color: rgb(0, 0, 0);
+}
+
+section .botoes-links  {
+    color: #000;
+}
+
+.link-tree {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background: #020202;
+
+    border: 1px solid #f0f8ff;
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 8px;
+
+    margin-block: 30px;
+    
+    margin-inline: auto;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+
+div .botao-link  {
+    margin: 10px;
+    max-height: 10rem;
+    min-width: 15rem;
+    min-height: 3rem;
+    border-radius: 10px;
+    background-color: rgba(41, 41, 41, 0.644);
+    border-color: #00ebc4;
+    color: white;
+    font-style: oblique;
+    font-size: 20px;
+    
+}
+
+div .link-tree, button:hover {
+    box-shadow: 0 0 15px #00ebc4, inset 0 0 15px #00ebc4;
+}
